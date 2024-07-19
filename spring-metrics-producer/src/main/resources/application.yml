@@ -1,0 +1,35 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: kafka-producer
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoint:
+    metrics:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+
+app:
+  producer:
+    host: http://localhost:8082
+    methods:
+      - /api/v1/producer-metrics
+      - /actuator/
+    topic: metrics-topic
+    key: metrics
+  kafka:
+    bootstrapAddress: localhost:9092

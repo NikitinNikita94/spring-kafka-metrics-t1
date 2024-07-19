@@ -26,11 +26,17 @@
   GET /metrics/{id}: Получение конкретной метрики по ее идентификатору.
 
 ### Для мониторинга приложения:
-`Prometheus ` `Grafana`
+
+`Prometheus`
+![Prometheus.png](img/prometheus.png)
+![Prometheus2.png](img/prometheus2.png)
+
+`Grafana`
+![Grafana.png](img/grafana.png)
 
 ### Стек технологий:
 
-`Java 17` `Gradle` `Spring` `PostgreSQL` `Liqudbase` `Kafka` `MapStruct` 
+`Java 17` `Gradle` `Spring` `PostgreSQL` `Liqudbase` `Kafka` `MapStruct` `Prometheus` `Grafana`
 
 ## Автор:<br>
 
