@@ -29,6 +29,7 @@
 
 `Prometheus`
 ![Prometheus.png](img/prometheus.png)
+![Prometheus2.png](img/prometheus2.png)
 
 `Grafana`
 ![Grafana.png](img/grafana.png)
